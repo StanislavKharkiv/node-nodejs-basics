@@ -1,5 +1,7 @@
+import {argv} from 'node:process';
+
 const parseArgs = () => {
-    // Write your code here 
+    console.log(argv.splice(2).join(' '))
 };
 
 parseArgs();
